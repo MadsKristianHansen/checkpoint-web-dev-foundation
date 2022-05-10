@@ -55,11 +55,20 @@ input:focus {
 }
 
 select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   height: 2.25rem;
   border: 2px solid #6a1cc3;
   border-radius: 2px;
   font-family: "Source Sans Pro", sans-serif;
   color: #6a1cc3;
+  background-image: url("./img/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  background-size: 0.609rem;
+  padding-left: 1rem;
+  cursor: pointer;
 }
 
 select:active,
