@@ -1,7 +1,65 @@
+/**************************************************************/
+/* General Stylings */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html {
-  max-width: 600px;
+  font-size: 16px;
 }
 
 body {
-  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+/**************************************************************/
+/* Specific Stylings */
+
+.main-header {
+  width: 24.438rem;
+  height: 5.938rem;
+  background-color: #6a1cc3;
+  color: white;
+}
+
+.main-header-content {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.header-icon {
+  height: 3rem;
+  width: 3.5rem;
+  fill: #fbfbfb;
+  margin: auto;
+  cursor: pointer;
+}
+
+.main-header-design-container {
+  z-index: -2;
 }
