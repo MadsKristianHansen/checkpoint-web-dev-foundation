@@ -49,6 +49,24 @@ h3 {
   margin-top: unset;
 }
 
+input:active,
+input:focus {
+  outline: none;
+}
+
+select {
+  height: 2.25rem;
+  border: 2px solid #6a1cc3;
+  border-radius: 2px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #6a1cc3;
+}
+
+select:active,
+select:focus {
+  outline: none;
+}
+
 /**************************************************************/
 /* Specific Stylings */
 
@@ -81,6 +99,10 @@ h3 {
   z-index: -2;
 }
 
+.display-none {
+  display: none;
+}
+
 #student-name-search {
   width: 100%;
   height: 2.25rem;
@@ -93,7 +115,16 @@ h3 {
   color: #4b148a61;
 }
 
-#student-name-search:active,
-#student-name-search:focus {
-  outline: none;
+.select-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+#class-select {
+  width: 55%;
+}
+
+#time-select {
+  width: 40%;
 }

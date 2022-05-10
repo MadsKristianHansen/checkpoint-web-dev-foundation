@@ -33,8 +33,21 @@
             <h2>STUDENTS</h2>
             <section class="student-search">
                 <h3>Your fellow students</h3>
+                <label class="display-none" for="student-name-search">Search for students names</label>
                 <input type="search" name="student-name-search" id="student-name-search"
                     placeholder="Search for students names">
+                <div class="select-group">
+                    <label for="class-select" class="display-none">Select a student-class</label>
+                    <select name="class-select" id="class-select">
+                        <option value="November Class">NovemberClass2021</option>
+                        <option value="April Class">AprilClass2022</option>
+                    </select>
+                    <label for="time-select" class="display-none">Select a time commitment</label>
+                    <select name="time-select" id="time-select">
+                        <option value="Full-time">Full-time</option>
+                        <option value="Part-time">Part-time</option>
+                    </select>
+                </div>
             </section>
             <section class="student-display"></section>
         </article>
