@@ -8,6 +8,7 @@
 }
 
 html {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   background-color: #e9e9e9;
 }
@@ -42,6 +43,10 @@ h2 {
   color: #6a1cc3;
 }
 
+h3 {
+  color: #00000099;
+}
+
 /**************************************************************/
 /* Specific Stylings */
 
@@ -72,4 +77,21 @@ h2 {
 
 .main-header-design-container {
   z-index: -2;
+}
+
+#student-name-search {
+  width: 100%;
+  height: 2.25rem;
+  border: 2px solid #6a1cc3;
+  border-radius: 2px;
+  padding-left: 0.7rem;
+}
+
+#student-name-search::placeholder {
+  color: #4b148a61;
+}
+
+#student-name-search:active,
+#student-name-search:focus {
+  outline: none;
 }
