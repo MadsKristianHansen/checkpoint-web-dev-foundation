@@ -42,11 +42,13 @@ h1 {
 h2 {
   color: #6a1cc3;
   margin-bottom: unset;
+  font-size: 1.125rem;
 }
 
 h3 {
   color: #00000099;
   margin-top: unset;
+  font-size: 0.875rem;
 }
 
 input:active,
@@ -144,6 +146,10 @@ p {
 
 .student-display {
   margin-top: 3rem;
+}
+
+.student-display-heading {
+  font-size: 1rem;
 }
 
 .student-list {
