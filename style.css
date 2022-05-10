@@ -142,6 +142,10 @@ p {
   width: 40%;
 }
 
+.student-display {
+  margin-top: 3rem;
+}
+
 .student-list {
   display: flex;
   flex-direction: column;
@@ -156,6 +160,7 @@ p {
   display: grid;
   grid-template-columns: 25% 75%;
   padding: 0.75rem;
+  box-shadow: 4px 4px #6a1cc3;
 }
 
 .profile-picture {
@@ -172,4 +177,17 @@ p {
   fill: white;
   height: 1.25rem;
   width: 1.25rem;
+}
+
+.info-group {
+  color: #6a1cc3;
+}
+
+.student-name {
+  font-size: 1rem;
+}
+
+.student-link {
+  color: inherit;
+  font-size: 0.75rem;
 }
